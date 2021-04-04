@@ -1,0 +1,16 @@
+a:hover {
+    text-decoration: underline;
+}
+
+.header-bg {
+    background-color: rgb(41, 91, 135);
+}
+
+.bg-menu {
+    background-color: white;
+}
+
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}

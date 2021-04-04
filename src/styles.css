@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #EAEDED;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    min-height: calc(100% - 4rem);
+}
+
+.footer {
+    height: 4rem;
+    background-color: rgb(41, 91, 135);
+}
+
+.copyright {
+    padding: 28px 0;
+    background-color: rgb(41, 91, 135);
+}
+
+.copyright span,
+.copyright a {
+    color: white;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.copyright a:hover {
+    color: #007bff;
+}
+
+.copyright-menu ul {
+    text-align: right;
+    margin: 0;
+}
+
+.copyright-menu li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.a-contactos {
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
